@@ -1,0 +1,15 @@
+C:\Polina\C#\Light\obj\Debug\Light.csproj.AssemblyReference.cache
+C:\Polina\C#\Light\obj\Debug\MainWindow.g.cs
+C:\Polina\C#\Light\obj\Debug\App.g.cs
+C:\Polina\C#\Light\obj\Debug\Light_MarkupCompile.cache
+C:\Polina\C#\Light\obj\Debug\Light_MarkupCompile.lref
+C:\Polina\C#\Light\bin\Debug\Light.exe.config
+C:\Polina\C#\Light\bin\Debug\Light.exe
+C:\Polina\C#\Light\bin\Debug\Light.pdb
+C:\Polina\C#\Light\obj\Debug\MainWindow.baml
+C:\Polina\C#\Light\obj\Debug\Light.g.resources
+C:\Polina\C#\Light\obj\Debug\Light.Properties.Resources.resources
+C:\Polina\C#\Light\obj\Debug\Light.csproj.GenerateResource.cache
+C:\Polina\C#\Light\obj\Debug\Light.csproj.CoreCompileInputs.cache
+C:\Polina\C#\Light\obj\Debug\Light.exe
+C:\Polina\C#\Light\obj\Debug\Light.pdb

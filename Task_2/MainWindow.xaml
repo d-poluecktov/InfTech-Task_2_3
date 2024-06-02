@@ -1,0 +1,57 @@
+﻿<Window x:Class="Light.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Light"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="Auto"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <Rectangle Grid.Row="0" Grid.Column="0" x:Name="rctFlashlight" Fill="LightGray" Width="100" Height="100" Margin="10" />
+        <TextBlock Grid.Row="0" Grid.Column="0" Text="Flashlight" Margin="30"/>
+        <TextBlock Grid.Row="0" Grid.Column="0" x:Name="tbBroken0" Text="Broken" Visibility="Hidden" Margin="50"/>
+        <Rectangle Grid.Row="0" Grid.Column="1" x:Name="rctTableLamp" Fill="LightGray" Width="100" Height="100" Margin="10" />
+        <TextBlock Grid.Row="0" Grid.Column="1" Text="Table Lamp" Margin="30"/>
+        <TextBlock Grid.Row="0" Grid.Column="1" x:Name="tbBroken1" Text="Broken" Visibility="Hidden" Margin="50"/>
+        <Rectangle Grid.Row="0" Grid.Column="2" x:Name="rctFloorLamp" Fill="LightGray" Width="100" Height="100" Margin="10" />
+        <TextBlock Grid.Row="0" Grid.Column="2" Text="Floor Lamp" Margin="30"/>
+        <TextBlock Grid.Row="0" Grid.Column="2" x:Name="tbBroken2" Text="Broken" Visibility="Hidden" Margin="50"/>
+        <WrapPanel Grid.Row="0" Grid.Column="3">
+            <Rectangle Grid.Row="0" Grid.Column="3" x:Name="rctChandelier1"  Fill="LightGray" Width="100" Height="100" />
+            <Rectangle Grid.Row="0" Grid.Column="3" x:Name="rctChandelier2" Fill="LightGray" Width="100" Height="100" />
+        </WrapPanel>
+        <TextBlock Grid.Row="0" Grid.Column="3" Text="Chandelier" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+        <TextBlock Grid.Row="0" Grid.Column="3" x:Name="tbBroken3" Text="Broken" Visibility="Hidden" Margin="30"/>
+
+        <Button Grid.Row="1" Grid.Column="0" Content="Turn On" x:Name="btnTurnOnFlashlight" Click="btnTurnOnFlashlight_Click"/>
+        <Button Grid.Row="1" Grid.Column="1" Content="Turn On" x:Name="btnTurnOnTableLamp" Click="btnTurnOnTableLamp_Click"/>
+        <Button Grid.Row="1" Grid.Column="2" Content="Turn On" x:Name="btnTurnOnFloorLamp" Click="btnTurnOnFloorLamp_Click"/>
+        <Button Grid.Row="1" Grid.Column="3" Content="Turn On" x:Name="btnTurnOnChandelier" Click="btnTurnOnChandelier_Click"/>
+
+        <Button Grid.Row="2" Grid.Column="0" Content="Turn Off" x:Name="btnTurnOffFlashlight" Click="btnTurnOffFlashlight_Click"/>
+        <Button Grid.Row="2" Grid.Column="1" Content="Turn Off" x:Name="btnTurnOffTableLamp" Click="btnTurnOffTableLamp_Click"/>
+        <Button Grid.Row="2" Grid.Column="2" Content="Turn Off" x:Name="btnTurnOffFloorLamp" Click="btnTurnOffFloorLamp_Click"/>
+        <Button Grid.Row="2" Grid.Column="3" Content="Turn Off" x:Name="btnTurnOffChandelier" Click="btnTurnOffChandelier_Click"/>
+
+        <Button Grid.Row="3" Grid.Column="2" Content="Plug in" x:Name="btnPlugInFloorLamp" Click="btnPlugInFloorLamp_Click"/>
+        <Button Grid.Row="3" Grid.Column="1" Content="Plug in" x:Name="btnPlugInTableLamp" Click="btnPlugInTableLamp_Click"/>
+
+        <Button Grid.Row="4" Grid.Column="2" Content="Unplug" x:Name="btnUnplugFloorLamp" Click="btnUnplugFloorLamp_Click"/>
+        <Button Grid.Row="4" Grid.Column="1" Content="Unplug" x:Name="btnUnplugTableLamp" Click="btnUnplugTableLamp_Click"/>
+
+    </Grid>
+</Window>

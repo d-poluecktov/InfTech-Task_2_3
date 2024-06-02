@@ -1,0 +1,16 @@
+C:\Polina\C#\Light\bin\Release\Light.exe.config
+C:\Polina\C#\Light\bin\Release\Light.exe
+C:\Polina\C#\Light\bin\Release\Light.pdb
+C:\Polina\C#\Light\obj\Release\MainWindow.g.cs
+C:\Polina\C#\Light\obj\Release\SecondWindow.g.cs
+C:\Polina\C#\Light\obj\Release\App.g.cs
+C:\Polina\C#\Light\obj\Release\Light_MarkupCompile.cache
+C:\Polina\C#\Light\obj\Release\Light_MarkupCompile.lref
+C:\Polina\C#\Light\obj\Release\MainWindow.baml
+C:\Polina\C#\Light\obj\Release\SecondWindow.baml
+C:\Polina\C#\Light\obj\Release\Light.g.resources
+C:\Polina\C#\Light\obj\Release\Light.Properties.Resources.resources
+C:\Polina\C#\Light\obj\Release\Light.csproj.GenerateResource.cache
+C:\Polina\C#\Light\obj\Release\Light.csproj.CoreCompileInputs.cache
+C:\Polina\C#\Light\obj\Release\Light.exe
+C:\Polina\C#\Light\obj\Release\Light.pdb
